@@ -31,7 +31,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+<div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -41,7 +41,6 @@
         </div>
         <!-- Spinner End -->
 
-
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0" id="home">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
@@ -49,28 +48,11 @@
                     <h1 class="m-0">Cartilha de Orietações</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="#claro" class="nav-item nav-link">Claro</a>
-                        <a href="#vivo" class="nav-item nav-link">Vivo</a>
-                        <a href="#tim" class="nav-item nav-link">Tim</a>
-                    </div>
-                </div>
             </nav>
 
             <div class="container-xxl bg-primary hero-header">
                 <div class="container px-lg-5">
                     <div class="row g-5">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">Nesta página você verá orientações de como cadastrar e ativar o seu novo chip</h1>
-                            <p class="text-white pb-3 animated slideInDown">Selecione a operadora do seu novo chip e siga o passo a passo descrito. É simples!</p>
-                            <a target="_blank" href="https://wa.me/74988065101" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Se tiver ainda duvidas me chama no ZAP
-                            <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
-                            </a>
-                        </div>
                         <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
                             <div class="owl-carousel screenshot-carousel">
                                 <img class="img-fluid" src="img/clarobanner.png" alt="">
@@ -84,42 +66,6 @@
             </div>
         </div>
         <!-- Navbar & Hero End -->
-
-
-        <!-- como funciona Start -->
-        <div class="container-xxl py-5" id="about">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div>
-                            <img width="48" height="48" src="https://img.icons8.com/color/48/warning-shield.png" alt="warning-shield"/>
-                        </div>
-                        <h5 id="aviso" class="text-primary-gradient fw-medium text-start"></h5>
-                        <h1 class="mb-4">ATENÇÃO: AVISO IMPORTANTE</h1>
-                        <p>
-                            CARO CLIENTE, AO COMPRAR SEU CHIP DE QUALQUER 
-                            OPERADORA, GUARDAR A EMBALAGEM POR 10 DIAS. QUALQUER 
-                            PROBLEMA QUE VENHA ACONTECER NO CADASTRAMENTO, TEM 
-                            QUE APRESENTAR A EMBALAGEM CORRETA PARA CONFERÊNCIA 
-                            DO ICCID NÚMERO DE IDENTIFICAÇÃO DO CHIP, NÃO 
-                            APRESENTANDO CORRETAMENTE, NÃO PODEMOS EFETUAR A 
-                            TROCA DO CHIP<br><br>
-                            
-                            LEMBRANDO A TODOS CLIENTES DE TODAS AS OPERADORAS 
-                            QUE EXISTE UM PRAZO DE 72 HORAS PARA RESOLVER O 
-                            PROBLEMA REFERENTE À REDE, FIBRA, ÁREA OU SINAL, ONDE 
-                            IMPACTA NO CADASTRAMENTO DO CHIP. DEPOIS DESSE PRAZO 
-                            NÃO SENDO RESOLVIDO, A EMPRESA AUTORIZA A TROCA DO 
-                            CHIP “MAS O PONTO DE VENDA TEM QUE INFORMAR AO 
-                            VENDEDOR O QUE ESTÁ OCORRENDO PRA SER RESOLVIDO O 
-                            MAIS RAPIDO POSSÍVEL.” <br>            
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- como funciona End -->
 
 
         <!-- Operadoras  Start -->
@@ -142,18 +88,6 @@
                         </div>
                 </a>  
                 
-                <a href="#vivo" class="nav-item nav-link active">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="text-center">
-                                <img width="100" height="70" src="img/vivo.png">
-                            </div>
-                            <h5 class="mb-3">VIVO</h5>
-                            <p class="m-0">Clique aqui para iniciar serviços VIVO</p>
-                        </div>
-                    </div>
-                </a>
-
             <a href="#tim" class="nav-item nav-link active">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded p-4">
@@ -166,6 +100,18 @@
                     </div>
             </a>
 
+            <a href="#vivo" class="nav-item nav-link active">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="text-center">
+                            <img width="100" height="70" src="img/vivo.png">
+                        </div>
+                        <h5 class="mb-3">VIVO</h5>
+                        <p class="m-0">Clique aqui para iniciar serviços VIVO</p>
+                    </div>
+                </div>
+            </a>
+
                 </div>
             </div>
         </div>
@@ -173,53 +119,54 @@
 
 
         <!-- Screenshot claro Start -->
-        <div id="claro" class="container-xxl py-5">
+        <div id="claro" class="container-xxl py-5"><hr>
             <div class="container py-5 px-lg-5">
+                <div class="text-center">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/warning-shield.png" alt="warning-shield"/><br>
+                     <strong class="h3">AVISO IMPORTANTE!</strong>
+                     <p class="m-3 h5"> NÃO DEIXE DE LER ANTES DE CADASTRAR SEU CHIP</strong><br><br>
+                        <a href="#avisoGeral" type="button" class="btn btn-success mb-3">Clique aqui</a>
+                </div>
+               
+
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                        
-                        <h1 class="mb-4">SERVIÇOS CLARO CHIP</h1> 
-                        
                         <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
                             <div class="owl-carousel screenshot-carousel">
                                 <img class="img-fluid" src="img/clarobanner.png" alt="">
                             </div>
                         </div>
+                        <h1 class="mb-4">SERVIÇOS CLARO CHIP</h1> 
+                        <p>*552# CADASTRA SEU CHIP POR SMS</p>
+                        <p>*1052# DEMAIS SERVIÇOS NA TELA DO CELULAR</p>
+                        <p >*544# CONSULTAR SALDO NA TELA E VALIDADE DOS CRÉDITOS</p>
+                        <p > *123# SABER SE O NÚMERO JÁ É CLARO</p>
+                        <p > *525 CONSULTA PROMOÇÃO ATIVA</p>
+                        <p > CONSULTAR NÚMERO VIA SMS DESTINATÁRIO 35742 A PALAVRA CLARO   </p>
                         
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>* 552 # CADASTRAR SEU CHIP POR SMS </p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>* 1052 # DEMAIS SERVIÇOS NA TELA DO CELULAR </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>* 544 # CONSULTAR SALDO NA TELA E VALIDADE DOS CRÉDITOS </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>* 123 # SABER SE O NÚMERO JÁ É CLARO </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>* 525 CONSULTAR PROMOÇÃO ATIVA </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>CONSULTAR NÚMERO VIA SMS DESTINATÁRIO 35742 A PALAVRA CLARO   </p>
-                        
-                        <h3>PROMOÇÃO QUE VEM NO CHIPS</h3>
+                        <h3>AGORA VAMOS PARA AS PROMOÇÕES QUE VEM NOS CHIP’S</h3>
                         <p class="mb-4">
-                            <strong>CLARO HR:</strong> É O CHIP QUE VEM SEM CRÉDITO, O CLIENTE TEM 
-                            QUE EFETUAR UMA RECARGA DE 25,00 REAIS PARA FICAR ATIVO NA 
-                            PROMOÇÃO, LIGAÇÕES ILIMITADAS POR 30 DIAS E 9GB DE INTERNET PARA 
-                            USAR COMO QUISER.  
+                            <strong>CHIP CLARO HR:</strong>   É O CHIP QUE VEM SEM CRÉDITO, 
+                            O CLIENTE TEM QUE EFETUAR UMA RECARGA DE 25 REAIS PARA FICAR ATIVO NA PROMOÇÃO, 
+                            LIGAÇÕES ILIMITADAS POR 30 DIAS E 9GB DE INTERNET PARA USAR COMO QUISER  
                             <br><br>
-                            <strong>CLARO PREZÃO +:</strong>  É O QUE VEM COM 25,00 REAIS DE 
-                            CRÉDITO LHE DA DIREITO LIGAÇÕES ILIMITADAS POR 30 DIAS E 9GB DE 
-                            INTERNET PARA USAR COMO QUISER.
+                            <strong>CHIP CLARO PREZÃO +:</strong> É O QUE VEM COM 25 REAIS DE CRÉDITO, LHE DÁ
+                             DIREITO LIGAÇÕES ILIMITADAS POR 30 DIAS E 9GB DE INTERNET PARA USAR COMO QUISER.
                             <br><br>
-                            <strong>CHIP CLARO-FLEX:</strong> “É O QUERIDINHO DO MOMENTO” ELE VEM 
-                            COM: 40,00 REAIS DE CRÉDITOS 20 GB DE INTERNET E AS REDES SOCIAIS 
-                            ILIMITADA COMO: WHATSAPP, INSTAGRAM, FACEBOOK, TWITTER, WASE E CLARO 
-                            MÚSICA 100% DIGITAL SEM FIDELIDADE.
+                            <strong>CHIP CLARO-FLEX:</strong> É O QUERIDINHO DO MOMENTO ELE VEM COM 40 REAIS 
+                            DE CRÉDITO 20 GB DE INTERNET E AS REDES SOCIAIS ILIMITADAS WHATSAPP, INSTAGRAM, 
+                            FACEBOOK, TWITTER, WAZE E CLARO MÚSICA 100% DIGITAL SEM FIDELIDADE
                             <br><br>
 
                            
                         </p>
                         <div class="alert-warning">
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <div class="alert alert-light alert-dismissible fade show" role="alert">
                                 <strong> OBSERVAÇÃO IMPORTANTE:</strong><br> 
-                                CASO O CLIENTE PROCURE NO SEGUNDO MÊS 
-                                E QUEIRA COLOCAR OUTRO VALOR PODE SIM, 25,00 AI ELE SÓ TEM DIREITO A 
-                                LIGAÇÕES ILIMITADA E 9GB DE INTERNETE, POSSO COLOCAR R$ 20,00 
-                                AI ELE ENTRA NA PROMOÇÃO DIÁRIA QUE DESCONTA TODO DIA 2,19 COM LIGAÇÃO 
-                                ILIMITADA E 100MB DE INTERNET POR DIA, PRA USA O WHATSAPP. 
+                                CASO O CLIENTE PROCURE NO 2° MÊS POSSO COLOCAR OUTRO VALOR? PODE SIM 25,00 AI ELE
+                                SÓ TEM DIREITO A LIGAÇÕES ILIMITADAS E 9GB DE INTERNET, POSSO COLOCAR CR$ 20,00? PODE,
+                                ENTRA NA PROMOÇÃO DIÁRIA DESCONTA TODO DIA 2,19, LIGAÇÕES ILIMITADAS + 100MB DE INTERNET POR DIA, 
+                                PARA USAR O WHATSAPP.
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                               </div>
                         </div>
@@ -231,8 +178,9 @@
                                 <h5 class="mb-1">Passo 1</h5>
                               </div>
                                 <p class="mb-1">
-                                    COLOCA O CHIP NO APARELHO E REINICIA O CELULAR, AGUARDA CHEGAR O SINAL DE ÁREA, APÓS O SINAL SIGUA AS ORIENTAÇÕES
-                                    DIGITANDO NO APARELHO  <strong>*552#</strong>  TECLA VERDE PARA LIGAR E AGUARDE
+                                    COLOCA O CHIP NO APARELHO E REINICIA O CELULAR, AGUARDA CHEGAR O SINAL DE ÁREA, 
+                                    APÓS O SINAL APARECER SEGUE AS ORIENTAÇÕES <br><br>
+                                    DIGITA NO APARELHO *552# TECLA VERDE PARA LIGAR E AGUARDE
                                 </p>
                             </div><br>
 
@@ -241,7 +189,7 @@
                                   <h5 class="mb-1">Passo 2</h5>
                                 </div>
                                 <p class="mb-1">
-                                    TENHA EM MÃOS O SEU CPF, DIGITE OS 11 NÚMEROS DO SEU CPF
+                                    OLÁ, BEM-VINDO AO CLARO PRÉ PARA COMEÇAR, TENHA EM MÃOS O SEU CPF, DIGITE OS 11 NÚMEROS DO SEU CPF
                                 </p>
                               </div><br>
 
@@ -251,7 +199,7 @@
                               <h5 class="mb-1">Passo 3</h5>
                             </div>
                             <p class="mb-1">
-                                CPF INFORMADO: 00000000000 PARA COMFIRMAR DIGITE 1, OU PARA INFORMA OUTRO CPF DIGITA 2
+                                CPF INFORMADO: 00000000000 PARA CONFIRMAR DIGITE 1, OU PARA INFORMAR OUTRO CPF DIGITA 2
                             </p>
                           </div><br>
 
@@ -260,7 +208,7 @@
                               <h5 class="mb-1">Passo 4</h5>
                             </div>
                             <p class="mb-1">
-                                AGORA, POR FAVOR, INFORME SUA DATA DE NASSIMENTO. SÃO 8 DIGITOS, 2 PARA O DIA, 2 PARA O MÊS E 4 PARA O ANO.
+                                AGORA, POR FAVOR, INFORME SUA DATA DE NASCIMENTO. SÃO 8 DÍGITOS, 2 PARA O DIA, 2 PARA O MÊS E 4 PARA O ANO
                             </p>
                           </div><br>
 
@@ -269,7 +217,7 @@
                               <h5 class="mb-1">Passo 5</h5>
                             </div>
                             <p class="mb-1">
-                                DIGITE O CEP DA SUA RESIDÊNCIA 00000000
+                                DIGITE O CEP DA SUA RESIDÊNCIA  000
                             </p>
                           </div><br>
 
@@ -278,7 +226,8 @@
                               <h5 class="mb-1">Passo 6</h5>
                             </div>
                             <p class="mb-1">
-                                DIGITE O NÚMERO DAS OPÇÕES ABAIXO CORRESPONDENTE AO ESTADO DE EMISSÃO DO SEU CPF “ POR EXEMPLO ” 1- SP 2 - BA E SE 3 - PE,RN,PB E AL
+                                DIGITE O NÚMERO DAS OPÇÕES ABAIXO CORRESPONDENTE AO ESTADO DE EMISSÃO DO SEU CPF “POR EXEMPLO” <br>                                           
+                                  1- SP <br>2 - BA E SE    <br>    3 - PE,RN,PB E AL
                             </p>
                           </div><br>
 
@@ -287,42 +236,35 @@
                               <h5 class="mb-1">Passo 7</h5>
                             </div>
                             <p class="mb-1">
-                                CHIP PREZÃO+CADASTRO COM SUCESSO NO PREZÃO 24,99 POR MÊS COM 9GB+WHATSAPP APROVEITE! ENVIE 1 PARA FINALIZA.
+                                CHIP PREZÃO+CADASTRO COM SUCESSO NO PREZÃO 24,99 POR MÊS COM 9GB+WHATSAPP APROVEITE! ENVIE 1 PARA FINALIZAR.
                             </p>
                           </div><br>
 
-                          <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                            <strong>PARABÉNS!</strong> SUA LINHA SERÉ ATIVADA EM ATÉ 4 horas, E VOCÊ  PODERÁ CURTIR TODOS OS BENEFICIOS DO SEU PREZÃO
-                          </div>
+                          <div class="list-group-item list-group-item-action active" role="alert">
+                            <strong>PARABÉNS!</strong> PARABÉNS SUA LINHA SERÁ ATIVADA EM ATÉ 4 HORAS <br>
+                            E VOCÊ PODERÁ CURTIR TODOS OS BENEFÍCIOS DO SEU PREZÃO
+                          </div><br>
 
-                          <div class="alert alert-success" role="alert">
+                          <div class="alert" style="background-color: green; color:white;" role="alert">
                             <h4 class="alert-heading">AVISO IMPORTANTE!</h4>
-                            <p>CARO CLIENTE ANOTE O DIA QUE VOCÊ ESTÁ COMPRANDO SEU CHIP PORQUÊ A CADA 6 MÊS PRECISA RENOVAR A PROMOÇÃO, CASO ESQUEÇA VAI SER DESCONTADO 2,19 POR DIA.</p>
+                            <p>CARO CLIENTE, ANOTE O DIA QUE VOCÊ TÁ COMPRANDO SEU CHIP PORQUE A CADA 6 MESES TEM QUE RENOVAR A 
+                               PROMOÇÃO, CASO ESQUEÇA ENTRA NA PROMOÇÃO DIÁRIA 2,19 POR DIA +100MB</p>
                           </div><br><br>
 
-                          <h3>COMO RENOVAR A PROMOÇÃO?</h3>
+                          <h3>COMO MUDAR PARA A PROMOÇÃO PREZÃO?</h3>
 
                           <div class="list-group-item list-group-item-action" aria-current="true">
                             <p class="mb-1">
-                                <strong>Cada 6 mês o cliente tem que renovar a promoção<br>
-                                Ligue para: *1052# escolha as opções</strong><br><hr> 
-                                
-                                1 - MEU PREZÃO R$ 24,99 POR MÊS 9GB<br>
-                                2 - RENOVAR PROMOÇÃO
+                                <p>liga para *1052# </p>
+                                <p>2 MEU PREZÃO</p>
+                                <p>1 MEU PREZÃO R$ 24,99 POR MÊS 9GB</p>
+                                <p>1+ OPÇÕES</p>
+                                <p>3 RENOVAR PROMOÇÃO</p>
+                                <p>MEU PREZÃO</p>
+                               
                             </p>
                           </div><br>
-
                         
-                        <h5 class="mb-3 text-center">WHATSAPP <br> Aviso importante!</h5>
-                        <p class="m-0 text-center">  
-                             PREZADO CLIENTE NA HORA DE COMPRAR UM CHIP SEJA QUAL 
-                            FOR A OPERADORA DEPOIS DE CADASTRADO QUE FOR BAIXAR O 
-                            WHATSAPP E PEDIR UMA SENHA EM DUAS ETAPAS ESSA PESSOA 
-                            ERA DONA MAIS PERDEU A LINHA POR FALTA DE CRÉDITO, QUAL 
-                            PROCEDIMENTOS A SER FEITO VAI DO LADO DIREITO DO ZAP 
-                            CLICA NOS 3 PONTINHOS VAI NA ABA AJUDA VAI DIGITAR 
-                            “COMPREI O CHIP TEM OUTRA PESSOA USANDO O WHATSAPP” 
-                            VAI PEDIR PARA AGUARDAR ENQUANTO RESOLVE.</p>
                     </div>
                 </div>
                       </div>
@@ -332,156 +274,59 @@
         </div>
         <!-- Claro End -->
 
-        <!-- Screenshot VIVO Start -->
-        <div id="vivo" class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                        
-                        <h1 class="mb-4">SERVIÇOS VIVO CHIP</h1> 
-                        
-                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="owl-carousel screenshot-carousel">
-                                <img class="img-fluid" src="img/vivobanner.png" alt="">
-                            </div>
-                        </div>
-                        
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>*8955  CADASTRA CHIP </p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>*9003  CADASTRA NA PROMOÇÃO </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i> *8000  CONSULTAR SALDO POR LIGAÇÃO </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>*8486   FALAR COM A CENTRAL </p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>1058   FALAR COM A CENTRAL  </p>
-                        CONSULTAR SALDO VIA SMS DESTINATÁRIO 8000 E A PALAVRA SALDO 
-                        COMO CONSULTAR SEU NÚMERO ENVIE UM SMS DESTINATÁRIO 8300 COM 
-                        A PALAVRA NÚMERO.
-                        
-                        <div class="alert alert-success" role="alert">
-                            <h4 class="alert-heading">AVISO IMPORTANTE!</h4>
-                            <p>
-                                AVISO INPORTANTE! CARO CLIENTE A NOTE O DIA QUE VOCÊ ESTÁ 
-                                COMPRANDO SEU CHIP PORQUÊ A CADA COM 6 MÊS TEM QUE 
-                                RENOVAR A PROMOÇÃO, CASO ESQUEÇA VAI SER DESCONTADO 2,19 
-                                POR DIA.    
-                            </p>
-                          </div><br><br>
-
-                       
-                        <h3>PROMOÇÃO QUE VEM NO CHIPS</h3>
-                        <p class="mb-4">
-                            <strong>VIVO PRÉ:</strong>  É O CHIP QUE VEM SEM CRÉDITO, O CLIENTE TEM QUE 
-                            EFETUAR UMA RECARGA DE 17 REAIS PARA FICA ATIVO NA PROMOÇÃO 
-                            POR 15 DIAS LIGAÇÕES E WHATSAPP ILIMITADO + 5 GB PARA USAR COMO 
-                            QUISE.<br>
-                            <i class="fa fa-check text-primary-gradient me-3"></i>RECARGA DE CR$ 35,00 LIGAGAÇÕES ILIMITADA + WHATSAPP 20GB 30 DIAS  
-                            <br><br>
-                            <strong>VIVO COMBO:</strong>  É O CHIP QUE VEM CADASTRADO NA PROMOÇÃO, 
-                            COM 10 REAIS DE CRÉDITO +10GB INT LIGAÇÕES ILIMITADA + WHATSAPP 
-                            POR 15 DIAS OFERTA VALIDA POR 6 MÊS, A CADA 15 DIAS COLOCA CR$17,00 
-                            REAIS
-                            <br><br>
-                            <strong>CHIP CLARO-FLEX:</strong> “É O QUERIDINHO DO MOMENTO” ELE VEM 
-                            COM: 40,00 REAIS DE CRÉDITOS 20 GB DE INTERNET E AS REDES SOCIAIS 
-                            ILIMITADA COMO: WHATSAPP, INSTAGRAM, FACEBOOK, TWITTER, WASE E CLARO 
-                            MÚSICA 100% DIGITAL SEM FIDELIDADE.
-                            <br><br>
-
-                           
-                        </p>
-                        <div class="alert-warning">
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                <strong> OBSERVAÇÃO IMPORTANTE:</strong><br> 
-                                CASO O CLIENTE PROCURE NO SEGUNDO MÊS 
-                                E QUEIRA COLOCAR OUTRO VALOR PODE SIM, 25,00 AI ELE SÓ TEM DIREITO A 
-                                LIGAÇÕES ILIMITADA E 9GB DE INTERNETE, POSSO COLOCAR R$ 20,00 
-                                AI ELE ENTRA NA PROMOÇÃO DIÁRIA QUE DESCONTA TODO DIA 2,19 COM LIGAÇÃO 
-                                ILIMITADA E 100MB DE INTERNET POR DIA, PRA USA O WHATSAPP. 
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                              </div>
-                        </div>
-                            <br><br>
-                        
-                        <h5 class="mb-3 text-center">WHATSAPP <br> Aviso importante!</h5>
-                        <p class="m-0 text-center">  
-                             PREZADO CLIENTE NA HORA DE COMPRAR UM CHIP SEJA QUAL 
-                            FOR A OPERADORA DEPOIS DE CADASTRADO QUE FOR BAIXAR O 
-                            WHATSAPP E PEDIR UMA SENHA EM DUAS ETAPAS ESSA PESSOA 
-                            ERA DONA MAIS PERDEU A LINHA POR FALTA DE CRÉDITO, QUAL 
-                            PROCEDIMENTOS A SER FEITO VAI DO LADO DIREITO DO ZAP 
-                            CLICA NOS 3 PONTINHOS VAI NA ABA AJUDA VAI DIGITAR 
-                            “COMPREI O CHIP TEM OUTRA PESSOA USANDO O WHATSAPP” 
-                            VAI PEDIR PARA AGUARDAR ENQUANTO RESOLVE.</p>
-                    </div>
-                </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Screenshot End -->
-
-               <!-- Screenshot TIM Start -->
+    
+        <!-- Screenshot TIM Start -->
                <div id="tim" class="container-xxl py-5">
                 <div class="container py-5 px-lg-5">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                             
-                            <h1 class="mb-4">SERVIÇOS TIM CHIP</h1>
-                            
+                            <div class="text-center">
+                                <img width="48" height="48" src="https://img.icons8.com/color/48/warning-shield.png" alt="warning-shield"/><br>
+                                 <strong class="h3">AVISO IMPORTANTE!</strong>
+                                 <p class="m-3 h5"> NÃO DEIXE DE LER ANTES DE CADASTRAR SEU CHIP</strong><br><br>
+                                    <a href="#avisoGeral" type="button" class="btn btn-success mb-3">Clique aqui</a>
+                            </div>
+                           
                             <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="owl-carousel screenshot-carousel">
                                     <img class="img-fluid" src="img/timbanner.png" alt="">
                                 </div>
+                               
                             </div>
-                            
-                            <p><i class="fa fa-check text-primary-gradient me-3"></i>*144#   CADASTRA CHIP POR SMS </p>
-                            <p><i class="fa fa-check text-primary-gradient me-3"></i>*222#   CONSULTAR SALDO NA TELA  </p>
-                            <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>*846#   CONSULTAR O NÚMERO NA TELA </p>
-                            <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i> *144   FALAR COM A CENTRAL CLIENTE TIM  </p>
-                            <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i> 1056   FALAR COM A CENTRAL CLIENTE TIM  - A SEGUNDA OPÇÃO<br></p>
+                             <h1 class="mb-4">SERVIÇOS TIM CHIP</h1>
+                            <p class="mb-4">*144#   CADASTRA CHIP POR SMS </p>
+                            <p class="mb-4">*222#   CONSULTAR SALDO NA TELA      </p>
+                            <p class="mb-4">*846#   CONSULTAR O NÚMERO NA TELA   </p>
+                            <p class="mb-4"> *144      FALAR COM A CENTRAL CLIENTE TIM  </p>
+                            <p class="mb-4">  1056      FALAR COM A CENTRAL CLIENTE TIM <br></p>
                             <strong>DEMAIS SERVIÇOS</strong><br>
                             * 144 #   <br>
-                            1 CONSULTAR SALDO  
-                            2- CRÉDITO ESPECIAL  
-                            3- OFERTA  
-                            4 - CONSUMO<hr>    
-                            OPIÇÃO 07  VC VER MAIS<br>     
-                            03 – SERVIÇOS<br>       
-                            5 – MEU <br>
-                            NÚMERO<hr> 
-                            6 – INTERNET <br>  
+                            1 CONSULTAR SALDO <br>  
+                            2- CRÉDITO ESPECIAL  <br>
+                            3- OFERTA  <br>
+                            4 - CONSUMO <br>   
+                            <strong>OPÇÃO 07  VC VER MAIS</strong><br>     
+                            3 – SERVIÇOS<br>       
+                            5 – MEU NÚMERO <br>
+                            6 – CONSUMO DE INTERNET <br>  
                             7 – MEU PLANO<br><br>
                             
-                            <h3>PROMOÇÃO QUE VEM NO CHIPS</h3>
+                            <h3>AGORA VAMOS PARA AS PROMOÇÕES QUE VEM NOS CHIP’S</h3>
                             <p class="mb-4">
-                                <strong>TIM PRÉ TOP:</strong> E O CHIP QUE VEM SEM CRÉDITO, O CLIENTE 
-                                TEM QUE EFETUAR UMA RECARGA DE 17,00 REAIS E GANHA 10GB DURANTE 
-                                O DIA+10,6GB PRA USA NA MADRUGADA 00h AS 06h DA MANHÃ, LIGAÕES 
-                                ILIMITADA+WHATSAPP POR 15 DIAS.
+                                <strong>TIM PRÉ TOP:</strong> É O CHIP QUE VEM SEM CRÉDITO, O CLIENTE TEM QUE EFETUAR UMA RECARGA DE 17 REAIS E GANHA 10GB DURANTE O DIA E 10,6GB PRA USAR NA MADRUGADA 00 h às 06 h DA MANHÃ, LIGAÇÕES ILIMITADAS+WHATSAPP POR 15 DIAS 
                                 <br><br>
 
-                                <strong>TIM PRE TOP ONE 6,0:</strong>  
-                                TIM PRE TOP ONE 6,0<br>
-                                <i class="fa fa-check text-primary-gradient me-3"></i>
-                                RECARGA DE CR$ 20,00 LIGAGAÇÕES ILIMITADA + WHATSAPP 6GB 
-                                DURANTE O DIA E MAIS 12GB PARA USA NA MADRUGADA 00h:06h POR 
-                                17 DIAS.<br>
+                                <strong>TIM PRE TOP ONE 6,0:</strong>
+                               É O CHIP QUE VEM COM 10 REAIS DE CRÉDITO MAIS 11GB, WHATSAPP LIGAÇÕES ILIMITADAS POR 20 DIAS<br> 
 
-                                <i class="fa fa-check text-primary-gradient me-3"></i>
-                                RECARGA DE CR$ 30,00 LIGAGAÇÕES ILIMITADA + WHATSAPP 8,6 GB 
-                                DURANTE O DIA E MAIS 19.8 GB PARA USA NA MADRUGADA 00h:06h 
-                                POR 30 DIAS.
-                            </p>
+                               	RECARGA DE R$ 20,00 LIGAÇÕES ILIMITADAS + WHATSAPP 6GB DURANTE O DIA E MAIS 12GB PARA USAR NA MADRUGADA 00 h às 06 h POR 17 DIAS<br>
 
-                            <div class="alert-warning">
-                                <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                    <strong>AVISO INPORTANTE!</strong><br> 
-                                    CARO CLIENTE A NOTE O DIA QUE VC TA 
-                                    COMPRANDO SEU CHIP PORQUE A CADA 6 MÊS TEM QUE RENOVAR A 
-                                    PROMOÇÃO, CASO ESQUEÇA VAI SER DESCONTADO 2,19 POR DIA.    
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                  </div>
-                            </div>
-                                <br><br>
+                               	RECARGA DE R$ 30,00 LIGAÇÕES ILIMITADAS + WHATSAPP 8,6 GB DURANTE O DIA E MAIS 19.8GB PARA USAR NA MADRUGADA 00 h às 06 h POR 30 DIAS<br><br>
+
+                                <strong>AVISO IMPORTANTE:</strong> CARO CLIENTE, ANOTE O DIA QUE VC TA COMPRANDO SEU CHIP PORQUE A CADA 6 MESES TEM QUE RENOVAR A PROMOÇÃO, CASO ESQUEÇA ENTRA NA PROMOÇÃO DIARIA 2,19 POR DIA +100MB 
+                               
+
                                 
                             <h3>COMO CADASTRA O CHIP TIM PASSO A PASSO</h3>
                             <div class="list-group mt-3">
@@ -493,83 +338,206 @@
                                         COLOCA O CHIP NO APARELHO ESPERA CHEGAR O NÚMERO  
                                         SE NÃO CHEGUAR PODE CONTINUAR COM O CADASTRO NORMALMENTE COM *144#
                                     </p>
-                                </div><br>
+                                </div>
+                            </div>
+                                <br>
     
                                 <div class="list-group-item list-group-item-action active" aria-current="true">
                                     <div class="d-flex w-100 justify-content-between">
                                     </div>
                                     <p class="mb-1">
-                                        DIGITE O NÚMERO DA OPÇÃO QUE DESEJA<hr><br> 
+                                        OLÁ, P/ COMERÇA, DIGITE O NÚMERO DA OPÇÃO QUE DESEJA<hr><br> 
                                         1- ATIVE SEU TIMCHIP E RECEBA NOSSOS LANÇAMENTOS E PROMOÇÕES<br> 
                                         2- SÓ ATIVAR SEU TIMCHIP<br>
-                                        <hr>    
-                                        RESPOSTA   2<br>     
+                                        <br>* RESPOSTA 2<br>
+                                </div><br>
+
+                                <div class="list-group-item list-group-item-action active" aria-current="true">
+                                        <br>     
                                         OLÁ, VAMOS FAZER SEU CADASTRO, COM ELE VC CONCORDA COM SEU CONTRATO<br> 
-                                        DISPONIVEL EM: TIM.COM.BR/CONTRATOPRE. DIGITA SEU CPF (SOMENTE NÚMEROS) E TECLA ENVIAR<br> 
-                                        RESPOSTA CPF DO CLIENTE PARA CONCLUIR SEU CADASTRO, POR FAVOR DIGITA A DATA DE NASCIMENTO<br> 
-                                        COMPLETA (DDMMAAAA) SEM PONTOS, BARRAS OU TRAÇOS<br> 
-                                        RESPOSTA, DATA DE NASSIMENTO DO CLIENTE<br><hr> 
+                                        DISPONIVEL EM: TIM.COM.BR/CONTRATOPRE. DIGITA SEU CPF (SOMENTE NÚMEROS) E TECLA ENVIAR 
+                                        <br><br>* RESPOSTA: CPF DO CLIENTE<br> 
+                                </div><br>
+                                
+                                <div class="list-group-item list-group-item-action active" aria-current="true">
+                                        PARA CONCLUIR SEU CADASTRO, POR FAVOR DIGITA A DATA DE NASCIMENTO<br> 
+                                        COMPLETA (DDMMAAAA) SEM PONTOS, BARRAS OU TRAÇOS<br><br> 
+                                        * RESPOSTA: DATA DE NASCIMENTO DO CLIENTE<br>
+                                </div> <br>
+
+                                <div class="list-group-item list-group-item-action active" aria-current="true">       
                                         FALTA DUAS PERGUNTA PARA FINALIZAR SEU CADASTRO! RESPONDA A SEGUIR E<br> 
-                                        APROVEITE TODOS OS BENEFICIOS DE SER TIM 1 OK <br>
-                                        RESPOSTA 1 <br>
-                                        SELECIONE QUAL O ESTADO DE EMISSÃO DO SEU CPF <br>
-                                        1- PR, ST <br>
-                                        2- BA, SE <br>
-                                        3- DF, GO, MS, TO <br> 
-                                        4- RESPOSTA VAI SER O ESTADO ONDE TIROU O CPF <br><hr> 
-                                        SELECIONE QUAL O ANO DO SEU NACIMENTO: <br>
-                                            1971 <br> 
-                                            1973 <br>
-                                            1978 <br>
-                                        A RESPOSTA, VAI ESCOLHER O ANO QUE QUE O CLIENTE NASSEU <br>
-                                        FINALIZANDO SEU CHIP JÁ FOI CADASTRADO SO ESPERA O PRASO DA <br>
-                                        OPERADOURA PARA DEGUSTA A SUA OFERTA E BOA SORTE. PRA SABER SEU  <br>
-                                        NÚMERO *846# <br>
-                                    </p>
-                                  </div><br><br>
-    
-                             
-                            
-                            <h5 class="mb-3 text-center">WHATSAPP <br> Aviso importante!</h5>
-                            <p class="m-0 text-center">  
-                                 PREZADO CLIENTE NA HORA DE COMPRAR UM CHIP SEJA QUAL 
-                                FOR A OPERADORA DEPOIS DE CADASTRADO QUE FOR BAIXAR O 
-                                WHATSAPP E PEDIR UMA SENHA EM DUAS ETAPAS ESSA PESSOA 
-                                ERA DONA MAIS PERDEU A LINHA POR FALTA DE CRÉDITO, QUAL 
-                                PROCEDIMENTOS A SER FEITO VAI DO LADO DIREITO DO ZAP 
-                                CLICA NOS 3 PONTINHOS VAI NA ABA AJUDA VAI DIGITAR 
-                                “COMPREI O CHIP TEM OUTRA PESSOA USANDO O WHATSAPP” 
-                                VAI PEDIR PARA AGUARDAR ENQUANTO RESOLVE.</p>
+                                        APROVEITE TODOS OS BENEFICIOS DE SER TIM 1 OK <br><br>
+                                        * RESPOSTA: 1 <br>
+                                </div>    
+                                <br>
+                                <div class="list-group-item list-group-item-action active" aria-current="true">
+                                    SELECIONE QUAL O ESTADO DE EMISSÃO DO SEU CPF <br>
+                                    1- PR, ST <br>
+                                    2- BA, SE <br>
+                                    3- DF, GO, MS, TO <br> <br>
+                                    * RESPOSTA: VAI SER O ESTADO ONDE TIROU O CPF <br>
+
+                                </div>
+
+                                <br>
+                                <div class="list-group-item list-group-item-action active" aria-current="true">
+                                    SELECIONE QUAL O ANO DO SEU NACIMENTO: <br>
+                                    1971 <br> 
+                                    1973 <br>
+                                    1978 <br><br>
+                                    *A RESPOSTA: VAI ESCOLHER O ANO QUE QUE O CLIENTE NASCEU<br>
+
+                                </div>
+
+                                <br>
+                                <div class="list-group-item list-group-item-action active" aria-current="true">
+                                    FINALIZANDO SEU CHIP JÁ FOI CADASTRADO SÓ ESPERAR O PRAZO DA 
+                                    OPERADORA PARA DEGUSTA A SUA OFERTA E BOA SORTE.<br>
+                                </div>
+            
                         </div>
+                                
                     </div>
-                          </div>
-                        </div>
+                    </div>
+             </div>
+            </div>
                     </div>
                 </div>
             </div>
+
+            <hr>
             <!-- Claro End -->
-          
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-        
+
+
+             <!-- Screenshot VIVO Start -->
+        <div id="vivo" class="container-xxl py-5">
+
+            <div class="text-center">
+                <img width="48" height="48" src="https://img.icons8.com/color/48/warning-shield.png" alt="warning-shield"/><br>
+                 <strong class="h3">AVISO IMPORTANTE!</strong>
+                 <p class="m-3 h5"> NÃO DEIXE DE LER ANTES DE CADASTRAR SEU CHIP</strong><br><br>
+                    <a href="#avisoGeral" type="button" class="btn btn-success mb-3">Clique aqui</a>
             </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                Desenvolvido por:  
-                                <a target="_blank" href="https://wa.me/74981370420">Maurício França
-                                    <img width="20" height="20" src="https://img.icons8.com/color/20/whatsapp--v1.png" alt="whatsapp--v1"/>
-                                </a>
+
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="owl-carousel screenshot-carousel">
+                                <img class="img-fluid" src="img/vivobanner.png" alt="">
                             </div>
                         </div>
+
+                        <h1 class="mb-2">SERVIÇOS VIVO CHIP</h1> 
+                        
+                        <p>
+                            *9003     CADASTRA NA PROMOÇÃO<br>
+                            *8000     CONSULTAR SALDO POR LIGAÇÃO<br>
+                            *8486     FALAR COM A CENTRAL <br>
+                            1058       FALAR COM A CENTRAL<br>
+                            *8955     CADASTRA CHIP<br>
+
+                        </p><br><br>
+
+                        OUTRA FORMA DE CADASTRA O CHIPE VIVO LIGANDO *8486 OU 1058 OU FAZENDO UMA LIGAÇÃO PARA QUALQUER NÚMERO VAI CAIR NA CENTRAL DE CADASTRAMENTO.
+                        CONSULTAR SALDO VIA SMS DESTINATÁRIO 8000 E A PALAVRA SALDO
+                        COMO CONSULTAR SEU NÚMERO ENVIE UM SMS DESTINATÁRIO 8300 COM A PALAVRA NÚMERO                        
+
+
+                       <br><br>
+                        <h3>AGORA VAMOS PARA AS PROMOÇÕES QUE VEM NOS CHIP’S</h3>
+                        <p class="mb-4">
+                            <strong>VIVO PRÉ:</strong>  :    É O CHIP QUE VEM SEM CRÉDITO, O CLIENTE TEM QUE EFETUAR UMA RECARGA DE 17 REAIS PARA FICAR ATIVO NA PROMOÇÃO POR 15 DIAS LIGAÇÕES E WHATSAPP ILIMITADO + 5 GB PARA USAR COMO QUISER.<br>
+                            </i>RECARGA DE CR$ 35,00 LIGAGAÇÕES ILIMITADA + WHATSAPP 20GB 30 DIAS  
+                            <br><br>
+                            <strong>VIVO COMBO:</strong>  :  É O CHIP QUE VEM CADASTRADO NA PROMOÇÃO, COM 10 REAIS DE CRÉDITO +10GB LIGAÇÕES ILIMITADAS + WHATSAPP POR 15 DIAS OFERTA VÁLIDA POR 6 MESES, A CADA 15 DIAS COLOCA R$17,00 REAIS
+                            <br>
+                            RECARGA DE R$ 35,00 LIGAÇÕES ILIMITADAS + WHATSAPP 20GB 30 DIAS<br><br>
+
+
+                            <strong>CHIP CLARO-FLEX:</strong> “É O QUERIDINHO DO MOMENTO” ELE VEM 
+                            COM: 40,00 REAIS DE CRÉDITOS 20 GB DE INTERNET E AS REDES SOCIAIS 
+                            ILIMITADA COMO: WHATSAPP, INSTAGRAM, FACEBOOK, TWITTER, WASE E CLARO 
+                            MÚSICA 100% DIGITAL SEM FIDELIDADE.
+                            <br><br>
+                        </p>
+
+                        <p class="h5">
+                            AVISO IMPORTANTE: CARO CLIENTE ANOTE O DIA QUE VOCÊ TÁ COMPRANDO SEU CHIP PORQUE A CADA 6 MESES TEM QUE RENOVAR A PROMOÇÃO, CASO ESQUEÇA ENTRA NA PROMOÇÃO DIÁRIA  2,19 POR DIA + 100MB.
+                        </p>
+                            
+                        <br><br><br>
+                        
+                    </div>
+                </div>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+        <!-- Screenshot End -->
+
+
+            <hr>
+
+            <div id="avisoGeral" class=" m-2 p-3 rounded-2 text-center bg-success text-white">
+                <h3 class="text-white">ATENÇÃO: AVISOS IMPORTANTES</h3>
+                    <div class="text-start">
+                        <p>PREZADO CLIENTE NA HORA DE COMPRAR UM CHIP DA OPERADORA  
+                            CLARO, TIM E VIVO DEPOIS DE CADASTRADO QUE FOR BAIXAR O WHATSAPP
+                            E PEDIR UMA SENHA EM DUAS ETAPAS OUTRA PESSOA ERA DONA OU DONO 
+                            DO CHIP MAS PERDEU A LINHA POR FALTA DE CRÉDITO, QUAL PROCEDIMENTO
+                            A SER FEITO PARA TENTAR RECUPERAR WHATSAPP VAI DO LADO DIREITO DA 
+                            TELA E CLICA NOS 3 PONTINHOS VAI NA ABA AJUDA VAI DIGITAR “COMPREI
+                            O CHIP TEM OUTRA PESSOA USANDO O WHATSAPP” VAI PEDIR PARA AGUARDAR 
+                            A RESPOSTA POSSA SER QUE DEMORE ATÉ 5 DIAS ÚTEIS A RESPOSTA, SENDO 
+                            NEGADO, O CHIP NÃO VAI PODER SER TROCADO PORQUE WHATSAPP E UM SERVIÇO 
+                            À PARTE, POIS PERTENCE AO FACEBOOK. </p><br><br>
+                        <p>
+                            CARO CLIENTE, AO COMPRAR SEU CHIP DA OPERADORA CLARO, TIM E VIVO GUARDAR A 
+                            EMBALAGEM POR 5 DIAS. QUALQUER PROBLEMA QUE VENHA ACONTECER NO CADASTRAMENTO,
+                            TEM QUE APRESENTAR A EMBALAGEM COMPLETA PARA CONFERÊNCIA DO ICCID 
+                            (NÚMERO DE IDENTIFICAÇÃO DO CHIP), NÃO APRESENTANDO, NÃO PODEREMOS EFETUAR A 
+                            TROCA DO CHIP.
+                        </p><br>
+                        <p>
+                            LEMBRANDO AOS USUÁRIOS DA OPERADORA CLARO, TIM E VIVO QUE EXISTE UM PRAZO DE 5 DIAS
+                            ÚTEIS PARA RESOLVER O PROBLEMA REFERENTE À REDE, FIBRA OU SINAL, ONDE IMPACTA NO 
+                            CADASTRAMENTO DO CHIP. DEPOIS DESSE PRAZO NÃO SENDO RESOLVIDO, A EMPRESA AUTORIZA A 
+                            TROCA DO CHIP, MAS O PONTO DE VENDA TEM QUE INFORMAR AO VENDEDOR O QUE ESTÁ OCORRENDO
+                            PARA SER ABERTO UM CHAMADO E RESOLVER O MAIS RÁPIDO POSSÍVEL.
+                        </p><br>
+
+                        <p>
+                            SENHORES CLIENTES, INFORMAMOS QUE OS APARELHOS MAIS ANTIGOS NÃO ESTÃO MAIS CADASTRANDO
+                             CHIP’S, SÓ OS APARELHOS MAIS MODERNOS (APÓS CADASTRADO, PODE SER UTILIZADO NORMALMENTE 
+                             EM QUALQUER APARELHO).
+                        </p><br>
+
+                        <p>
+                            SENHORES CLIENTES, INFORMAMOS QUE MENORES DE 18 ANOS NÃO PODEM CADASTRAR O CHIP, TEM QUE 
+                            SER NO CPF DA MÃE OU PAI, QUANDO ELE PASSAR A SER DE MAIOR VAI EM UMA LOJA E FAZ A MUDANÇA DE NOME.
+                        </p><br>
+
+                         <p>
+                           SENHORES CLIENTES, INFORMAMOS QUE NA HORA DO CADASTRAMENTO SE ERRAR ALGUMA INFORMAÇÃO PEDIDA COMO CPF, 
+                           DATA DE NASCIMENTO OU ESTADO ONDE TIROU O CPF VAI BLOQUEAR O CADASTRO. PROCEDIMENTO A SER FEITO: LIGAR
+                           DE OUTRO NÚMERO PARA OPERADORA E TERMINAR O CADASTRO.
+                        </p><br>
+                        <p>Voltar para inicio:</p>
+                        <a href="#claro" type="button" class="btn btn-warning">CLARO</a>
+                        <a href="#tim" type="button" class="btn btn-primary">TIM</a>
+                        <a href="#vivo" type="button" class="btn" style="background-color: rgb(167, 45, 184); color:white;">VIVO</a>
+                    </div>
+            </div>
+
+            <br><br>
+
+            <a target="_blank" href="https://wa.me/74988065101" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Seja um revendedor de chip´s!chama no ZAP
+            <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+            </a> <br><br><br>
 
 
         <!-- Back to Top -->
